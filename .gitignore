@@ -45,5 +45,5 @@ Thumbs.db
 *.tmp
 
 # Ignore large processed files
-#/data/processed/*.parquet
-#/data/processed/*.npy
+/data/processed/*.parquet
+/data/processed/*.npy
