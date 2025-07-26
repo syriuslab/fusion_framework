@@ -1,0 +1,49 @@
+# ==============================================================================
+# DATA - Crucial for keeping the repository lightweight
+# ==============================================================================
+# Ignore the raw data directory. Users must download this manually.
+/data/raw/
+/data/processed/
+# You might also want to ignore processed data if the files are very large.
+# /data/processed/
+
+# ==============================================================================
+# PYTHON & JUPYTER
+# ==============================================================================
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+env/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ==============================================================================
+# IDE / EDITOR CONFIGURATION
+# ==============================================================================
+.idea/
+.vscode/
+*.swp
+
+# ==============================================================================
+# OS-SPECIFIC & TEMPORARY FILES
+# ==============================================================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Log and temporary files
+*.log
+*.tmp
+
+# Ignore large processed files
+#/data/processed/*.parquet
+#/data/processed/*.npy

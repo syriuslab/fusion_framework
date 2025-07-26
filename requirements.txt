@@ -1,0 +1,17 @@
+# Data Manipulation and Numerics
+pandas
+numpy
+
+# Machine Learning and Deep Learning
+xgboost==2.0.0
+tensorflow==2.16.0
+scikit-learn
+shap
+
+# Data Visualization
+matplotlib
+seaborn
+
+# File I/O
+pyarrow
+joblib
