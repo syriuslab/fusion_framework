@@ -2,8 +2,8 @@
 # DATA - Crucial for keeping the repository lightweight
 # ==============================================================================
 # Ignore the raw data directory. Users must download this manually.
-/data/raw/
-/data/processed/
+#/data/raw/
+#/data/processed/
 # You might also want to ignore processed data if the files are very large.
 # /data/processed/
 
