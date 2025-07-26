@@ -7,8 +7,18 @@ This repository contains the official code and experiments for the research pape
 Modern healthcare relies heavily on wearable IoT devices (e.g., heart rate, BP, oxygen levels). Sensor faults, data drift, or malicious interference can compromise monitoring reliability. This research proposes a multi-sensor fusion framework to detect anomalies in physiological signals—even under device malfunction or uncertainty—ensuring patient safety.
 
 ---
+## 🌳 Repository Branches
 
-## 📂 Repository Structure
+This repository has two primary branches for different purposes:
+
+* **`main`**: This is the lightweight, code-only branch. It's designed for users who want to run the entire pipeline from scratch to ensure full reproducibility. You will need to download the raw datasets and run all notebooks in order as described below.
+
+* **`release`**: This branch includes all the pre-computed processed data (`.parquet`, `.npy`) and the final trained models (`.joblib`, `.keras`). This is ideal for users who want to quickly run the final fusion and evaluation notebook (`03_fusion_framework_evaluation.ipynb`) without the time-consuming preprocessing and training steps. **Note:** This branch requires Git LFS to be installed.
+---
+
+---
+
+## 📂 Repository Structure (Release branch with all files)
 
 The repository is organized as follows:
 
